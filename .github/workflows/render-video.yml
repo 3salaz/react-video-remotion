@@ -10,6 +10,10 @@ on:
         description: "Which color should it be in?"
         required: true
         default: "black"
+      backgroundColor:
+        description: "Which background color should it be?"
+        required: true
+        default: "black"
 jobs:
   render:
     name: Render video
